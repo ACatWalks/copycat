@@ -1,0 +1,73 @@
+.real-footer{
+    background-color: palegoldenrod;
+    border-top: 1px solid red;
+    color: lightslategray;
+    text-align: center;
+}
+nav li{
+    list-style: none;
+    padding: 5px;
+}
+.red{
+    color: red
+}
+.nav-primary {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.nav-primary ul{
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+}
+body{
+    font-family: sans-serif;
+}
+.nav-secondary ul{
+    justify-content: flex-end;
+}
+.banner img{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
+.grey{
+    color: gray;
+    padding-left: 10px;
+}
+footer{
+    text-align: center;
+}
+aside{
+    text-align: center;
+    margin-left: 50px;
+}
+aside h2, footer h2{
+    border-bottom: 1px dotted gray;
+}
+aside p, aside li{
+    color: blue;
+}
+aside li{
+    list-style: square;
+}
+.btn-danger{
+    text-align: center;
+    border-radius: 25px;
+}
+.subscription{
+    display: flex;
+    border: 1px solid gray;
+    background-color: lightslategray;
+}
+.subscription button{
+    margin-left: 10px;
+}
